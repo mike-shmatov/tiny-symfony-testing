@@ -1,0 +1,40 @@
+{
+    "name": "tiny/symfony-testing",
+    "license": "MIT",
+    "keywords": ["symfony", "testing"],
+    "type": "library",
+    "description": "Tools to facilitate testing Symfony web applications.",
+    "authors": [
+        {
+            "name": "Mike Shmatov",
+            "email": "shmatov@inbox.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tiny\\SymfonyTesting\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": "tests/" }
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "^5.7",
+        "symfony/browser-kit": "^3.4",
+        "symfony/css-selector": "^3.4",
+        "symfony/framework-bundle": "^3.4",
+        "symfony/http-kernel": "^3.4",
+        "symfony/phpunit-bridge": "^3.0",
+        "symfony/twig-bundle": "^3.4"
+    },
+    "config": {
+        "platform": {
+            "php": "5.6"
+        },
+        "sort-packages": true
+    }
+}

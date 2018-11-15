@@ -1,0 +1,12 @@
+framework:
+    test: ~
+    secret: secret
+    default_locale: en
+    session:
+        storage_id: session.storage.mock_file
+    http_method_override: true
+    profiler:
+        collect: false
+
+services:
+    logger: { class: Psr\Log\NullLogger }

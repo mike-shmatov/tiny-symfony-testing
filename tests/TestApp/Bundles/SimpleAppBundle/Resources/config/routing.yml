@@ -1,0 +1,45 @@
+home.get:
+    path: /
+    methods: [GET]
+    defaults: 
+        _controller: SimpleAppBundle:Methods:get
+
+home.post:
+    path: /
+    methods: [POST]
+    defaults: 
+        _controller: SimpleAppBundle:Methods:post
+
+home.put:
+    path: /
+    methods: [PUT]
+    defaults: 
+        _controller: SimpleAppBundle:Methods:put
+
+home.patch:
+    path: /
+    methods: [PATCH]
+    defaults: 
+        _controller: SimpleAppBundle:Methods:patch
+
+home.delete:
+    path: /
+    methods: [DELETE]
+    defaults: 
+        _controller: SimpleAppBundle:Methods:delete
+        
+html.get:
+    path: /html
+    defaults:
+        _controller: SimpleAppBundle:Html:html
+
+echo.request:
+    path: /echo/request
+    defaults:
+        _controller: SimpleAppBundle:Echo:request
+        
+echo.throw:
+    path: /echo/throw
+    defaults:
+        _controller: SimpleAppBundle:Echo:throw
+        
