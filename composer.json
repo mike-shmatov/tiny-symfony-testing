@@ -1,5 +1,6 @@
 {
     "name": "tiny/symfony-testing",
+    "version": "0.1.0",
     "license": "MIT",
     "keywords": ["symfony", "testing"],
     "type": "library",
